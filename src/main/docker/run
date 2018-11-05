@@ -1,0 +1,4 @@
+#!/usr/bin/with-contenv sh
+
+# 启动服务
+java -Xms256m -Xmx256m -XX:MaxNewSize=256m -XX:MaxPermSize=256m -jar ${SERVER_BIN}

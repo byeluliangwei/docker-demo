@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: docker-demo
+server:
+  port: 1874
